@@ -1,0 +1,144 @@
+!!Emacs set
+Emacs.UseXIM: true
+Emacs.geometry: 100x40+20+10
+xterm*vt100*geometry: 80x40
+xterm*charClass: 33:48,35:48,37:48,43:48,45-47:48,64:48,95:48,126:48
+xterm*termName: xterm-256color
+Xft.antialias: 1
+Xft.dpi:96
+Xft.hiting: 1
+Xft.hintstyle: hintslight
+Xft.rgba: rgb
+
+Emacs.fontBackend: xft
+URxvt*depth: 32
+
+!-----------------zenburn style lovely
+
+!urxvt*background:       #2d2d2d
+!urxvt*foreground:       #7f8f9f
+!urxvt*color0:     #3f3f3f
+!urxvt*color0:      #101010
+!urxvt*color1:      #705050
+! green + yellow
+!urxvt*color2:      #60b48a
+!urxvt*color3:      #f0dfaf
+! blue + purple
+!urxvt*color4:      #506070
+!urxvt*color5:      #dc8cc3
+! cyan + white
+!urxvt*color6:      #8cd0d3
+!urxvt*color7:      #dcdccc
+! bright-black + bright-red
+!urxvt*color8:      #000000
+!urxvt*color9:      #dca3a3
+! bright-green + bright-yellow
+!urxvt*color10:     #c3bf9f
+!urxvt*color11:     #f0dfaf
+! bright-blue + bright-purple
+!urxvt*color12:     #94bff3
+!urxvt*color13:     #ec93d3
+! bright-cyan + bright-white
+!urxvt*color14:     #93e0e3
+!urxvt*color15:     #ffffff
+
+! scroll set 
+URxvt.scrollBar: False
+URxvt.scrollWithBuffer: false
+URxvt.saveLines: 5000
+
+! font set
+!URxvt.font:xft:Droid Sans Mono:size=10:antialias=true,xft:LiHei Pro:size=10:antialias=true
+!URxvt.font:xft:Arial monospaced for SAP:size=10:antialias=true,xft:LiHei Pro:size=10:antialias=true
+!URxvt.font:xft:Consolas:size=10:antialias=true
+! Input Method set 
+URxvt.inputMethod: xim
+!URxvt.font:         xft:terminus:size=10,xft:WenQuanYi Bitmap Song:size=8
+!URxvt.font:         xft:ProggyCleanTT:size=12:antialias=true,xft:Simsun:size=9:antialias=true
+ URxvt.font:         xft:Fantasque Sans Mono:size=13:antialias=true,xft:Simsun:size=9:antialias=true
+
+URxvt.preeditType: OverTheSpot
+URxvt.thickness: 0
+! window geometry set 
+URxvt.geometry: 80x28+40+40
+URxvt.title: Rxvt-Unicode
+URxvt*termName:rxvt-256color
+
+! Perl Script set
+URxvt.urlLauncher: firefox
+URxvt.matcher.button: 1
+
+!Xterm look and feel
+XTerm*color0 : #000d18
+XTerm*color1 : #e89393
+XTerm*color2 : #9ece9e
+XTerm*color3 : #f0dfaf
+XTerm*color4 : #8cd0d3
+XTerm*color5 : #c0bed1
+XTerm*color6 : #dfaf8f
+XTerm*color7 : #efefef
+XTerm*color8 : #000d18
+XTerm*color9  : #e89393
+XTerm*color10 : #9ece9e
+XTerm*color11 : #f0dfaf
+XTerm*color12 : #8cd0d3
+XTerm*color13 : #c0bed1
+XTerm*color14 : #dfaf8f
+XTerm*color15 : #efefef
+XTerm*colorBD : #ffcfaf
+XTerm*colorIT : #80d4aa
+XTerm*colorUL : #ccdc9
+XTerm*foreground     : #dcdccc
+XTerm*background     : #1f1f1f
+XTerm*cursorColor    : #8faf9f
+
+!font and locale
+xterm*locale: true
+xterm.utf8:     true
+xterm*utf8Title: true
+xterm*fontMenu*fontdefault*Label: Default
+!xterm*faceName: Droid sans Mono:antialias=True:pixelsize=14
+!xterm*faceName: Envy Code R:antialias=True:pixelsize=13
+xterm*faceName: xft:Fantasque Sans Mono:antialias=True:size=13
+xterm*faceNameDoublesize: xft:LiHei pro:size=10:antialias=True
+!xterm*faceName:dejaVu Sans Mono:antialias=True:pixelsize=14
+!xter*boldFont: DejaVu Sans Mono:style=Bold:pixelsize=15
+!xterm*faceNameDoublesize: LiHei pro:size=10:antialias=True
+xterm*xftAntialias: true
+xterm*cjkWidth: false
+
+
+!New Urxvt zenburn theme settings
+! Zenburn color-scheme
+URxvt*background: #3F3F3F
+URxvt*foreground: #DCDCCC
+URxvt*cursorColor: #DCDCCC
+URxvt*cursorColor2: #FFFFEF
+URxvt*colorUL: #8CD0D3
+URxvt*underlineColor: #F0DFAF
+URxvt*colorBD: #E0CF9F
+URxvt*colorIT: #656555
+!! black dark/light
+URxvt*color0: #3F3F3F
+URxvt*color8: #5F5F5F
+!! red dark/light
+URxvt*color1: #BC8383
+URxvt*color9: #CC9393
+!! green dark/light
+URxvt*color2: #5F7F5F
+URxvt*color10: #7F9F7F
+!! yellow dark/light
+URxvt*color3: #E0CF9F
+URxvt*color11: #F0DFAF
+!! blue dark/light
+URxvt*color4: #7CB8BB
+URxvt*color12: #8CD0D3
+!! magenta dark/light
+URxvt*color5: #DC8CC3
+URxvt*color13: #DC8CC3
+!! cyan dark/light
+URxvt*color6: #93E0E3
+URxvt*color14: #93E0E3
+!! white dark/light
+URxvt*color7: #DCDCCC
+URxvt*color15: #FFFFFF
